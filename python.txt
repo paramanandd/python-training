@@ -1,0 +1,130 @@
+print("hello world")
+print("welcome to python session")
+def display():
+    print("test")
+print("hello world")
+display()
+"""jhekdhfsdif
+dfhsdfhkgjs;dfgjsdfjhsdjf
+"""
+
+list = [2,3.2,"apple","3"]
+list2 = [3,4.2,"ball","2"]
+
+list[0]=10
+print("list1",list)
+print("list2",list2)
+
+print(list.count)
+print(list*2)
+t1 = (1,2,3,4)
+t2=(5,6)
+print(t1*2)
+print(type(t1))
+dict={"name":"parma","surname":"sir"}
+print(dict)
+print(dict['name'])
+print(dict.keys())
+print(dict.values())
+basket=['apple','banan','lemon']
+#fruits=set[basket]
+#print(fruits)
+
+print("if condition")
+offer=12
+current=6
+if offer > 1.8*current:
+    print("switch job")
+else:
+    print("wait for next appraisal")
+
+print("if condition for list")
+name="parma"
+if name in ["parma","kim"]:
+    print("your name is either parma or kim")
+else:
+    print("your name is not present in list")
+
+print("for loop")
+numbers=[1,2,3,4,5]
+for num in numbers:
+    print(num)
+
+#deprecated in python3
+#for num in xrange(6):
+ #   print(num)
+
+print("range")
+for num in range(6):
+    print(num)
+
+
+print("range")
+for num in range(6,9):
+    print(num)
+
+#While loop
+print("While loop")
+count=0
+while count<5:
+    print(count)
+    count+=1
+
+
+players=["suraj","dhoni","virat","sachin","parma"]
+for player in players:
+    print(player)
+    if player == "dhoni":
+        print("finally we found",player)
+        break
+
+
+players.append("samson")
+print(players)
+players.reverse()
+print(players)
+players.insert(2,"sanju")
+print(players)
+players.sort()
+print(players)
+players.pop(3)
+print(players)
+#print(dir(players))
+#print(players.clear())
+
+l1=[1,2,3,4]
+l2=[5,6,7,8,9]
+l3=[1,2,3,4]
+l4=[5,6,7,8,9]
+l1.extend(l2)
+print(l1)
+l3.append(l4)
+print(l3)
+
+l1=[1,2,3,4]
+l2=[5,6,7,8,9]
+l1.extend(l2)
+print(l1)
+l1=[1,2,3,4]
+l1.append(l2)
+print(l1)
+
+print("printv square for every element in list")
+items=[1,2,3,4,5,6]
+squared=[]
+for i in items:
+    squared.append(i**2)
+print(squared)
+
+
+
+print("enumeration")
+alist=['a1','a2','a3']
+for i, a in enumerate(alist):
+    print(i,a)
+
+
+set1={1,2,3}
+set2={3,4,5}
+print("union",set1.union(set2))
+print("union",set1.intersection(set2))
