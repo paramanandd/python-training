@@ -131,36 +131,39 @@ print("union",set1.intersection(set2))
 
 
 
+frozen=frozenset(['e','f','g'])
 print(frozen)
-print(frozen)
-
-'''
-'''
-'''
-
-'''
-'''
-'''
 
 
-'''
-'''
-'''
+import time
+ticks=time.time()
+print(ticks)
+
+import calendar
+cal=calendar.month(2018,9)
+print(cal)
 
 
-'''
+import datetime
+print(time.time())
+print(datetime.datetime.now())
 
 
-'''
-'''
-
-'''
-'''
-'''
-'''
-'''
-'''
 
 
-'''
+name=input("Enter numbers")
+
+
+'''count=0
+a=3;b=4;c=5
+
+while count<30:
+    if c*c==(a*a+b*b):
+    print(a,b,c)
+    a+=1
+    b+=1
+    count+=1
+
+
+n*n==(n*n)+(2*n)+1
 '''
